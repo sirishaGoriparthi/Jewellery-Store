@@ -1,0 +1,131 @@
+<!doctype html>
+
+<body lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Jewellery Store</title>
+  </head>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="navbar-brand" href="#"><img src="../../sprint 1 project/Jewellery Store/Resources/Images/logo3.jfif" width="100"
+        height="40"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="jewellery.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="designes.html">Designes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shopnow.html">Shop Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+      </ul>
+      <ul class="form-inline  my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signup.html">Sign Up</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+<style>
+  #btn{
+    margin-top: 20px;
+    margin-left: 45%;
+    background-color:rgb(58, 172, 210);
+  }
+  .navbar{
+    background-color: rgb(197, 212, 121);
+  }
+ h1{
+  padding-top: 20px;
+text-align: center;
+ }
+ #customFile{
+margin-left: 60px;
+margin-right: 60px;
+ }
+ .container{
+ 
+ width: 40%;
+ background-color: rgb(163, 244, 114);
+  }
+  body{
+    background-color: rgb(176, 205, 231);
+  }
+.form-row{
+  
+  margin: 20px 20px;
+  width: 160%;
+}
+  
+</style>
+
+<table>
+<form>
+  <h1>Add Items</h1>
+  <div class="container">
+    
+       
+        <div class="form-row">
+          <div class="form-group col-md-7">
+      <label for="exampleFormControlInput1">Name    :</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+        
+    
+      <div class="form-group col-md-7">
+      <label for="exampleFormControlSelect1">Category's   :</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option></option>
+        <option>Gold</option>
+        <option>silver</option>
+        <option>platinum</option>
+        <option>daimonds</option>
+        <option>cz</option>
+      </select>
+    </div>
+    
+    <div class="form-group col-md-7">
+      <label for="exampleFormControlTextarea1">Description</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="form-group col-md-7">
+    <div class="custom-file">
+  <input type="file" class="custom-file-input" id="customFile">
+  <label class="custom-file-label" for="customFile">Choose file</label>
+</div>
+        </div>
+  </div>
+</div>
+  <button type="button" class="btn btn-primary btn-lg" id="btn">Save Items</button>
+</body>
+</form>
+</table>
+</body>
+</html>
